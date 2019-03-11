@@ -36,6 +36,17 @@
 </form>
 
 <hr>
+
+
+<p>
+  Form Value: {{ profileForm.value | json }}
+</p>
+
+
+<p>
+  Form Status: {{ profileForm.status }}
+</p>
+
 <p>
   <button (click)="updateProfile()">Update Profile</button>
 </p>
